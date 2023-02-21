@@ -1,7 +1,8 @@
 #include "main.h"
+
 /**
- * main - print _putchar
- * is written by Progress1260
+ * main - main function
+ * _putchar: print the alphabets putchar
  * Return: 0
  */
 
