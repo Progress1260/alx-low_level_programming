@@ -5,18 +5,16 @@
  * @s: string to make upper
  * Return: return value of upper
  */
-char *string_toupper(char *str)
+char *string_toupper(char *s)
 {
-	int index = 0;
+	int index;
 
-	while (str[index])
+	for (i = 0; s[index] != '\0'; index++)
 	{
-		if (str[index] >= 'a' && str[index] <= 'z')
-			str[index] = str[index] - 32;
-
-		index++;
+		if (s[index] >= 'a' && s[index] <= 'z')
+		{
+			s[index] = s[index] - 32;
+		}
 	}
-
-	return (str);
+	return (s);
 }
-
